@@ -1,0 +1,69 @@
+/* Membuat Class Selector */
+.Judul{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Sub-judul{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Konten{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Membuat font weight */
+/* selector id */
+#p1{
+    /* Font weight normal */
+    font-weight: normal;
+}
+
+#p2{
+    /* Font weight Lighter */
+    font-weight: lighter;
+}
+
+#p3{
+    /* Font weight Bold */
+    font-weight: bolder;
+}
+
+#p4{
+    /* Font Weight Custom 100 s.d 900 */
+    font-weight: 900;
+}
+
+/* Membuat font variants */
+.v1{
+    font-variant: normal;
+}
+
+.v2{
+    font-variant: small-caps;
+}
+
+/* Membuat font-style */
+.f1{
+    font-style: normal;
+}
+
+.f2{
+    font-style: italic;
+}
+
+/* Membuat Line height */
+.lorem-1{
+    line-height: normal;
+}
+
+.lorem-2{
+    line-height: 1.6;
+}
+
+.lorem-3{
+    line-height: 80%;
+}
+
+.lorem-4{
+    line-height: 200%;
+}

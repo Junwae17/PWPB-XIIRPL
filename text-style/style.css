@@ -1,0 +1,49 @@
+/* Class selector */
+/* Color */
+.p1{
+    color: rgb(0, 255, 13);
+}
+.p2{
+    color: rgb(255, 166, 0);
+}
+.p3{
+    color: rgb(238, 255, 0);
+}
+
+/* Text-Align */
+.a{
+    text-align: Center;
+}
+.b{
+    text-align: left;
+}
+.c{
+    text-align: right;
+}
+.d{
+    text-align: justify;
+}
+
+/* Text-indent */
+.indent-text{
+    text-indent: 50px;
+}
+
+/* Decoration */
+.decor h2{
+    text-decoration: overline;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.decor h3{
+    text-decoration: line-through;
+    text-transform: lowercase;
+    letter-spacing: 10px;
+}
+.decor h4{
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+.decor h5{
+    text-decoration: overline;
+}
