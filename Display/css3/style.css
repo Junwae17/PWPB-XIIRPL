@@ -1,0 +1,45 @@
+body{
+    background-color: lightgrey;
+}
+
+.warpper{
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 1200px;
+    height: 80%;
+    /* Overflow AUTO : otomatis menambahkan scroll untuk melihat konten, HIDDEN : menyembunyikan
+    konten sesuai lebar frame, SCROLL : menambahkan scroll sebanyak apapun kontennya */
+}
+
+.warpper .box-1{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    overflow: auto;
+    display: inline-block;
+}
+
+.warpper .box-2{
+    width: 150px;
+    height: 150px;
+    background-color: beige;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.warpper .box-3{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    overflow: scroll;
+    display: inline-block;
+}
+
+.warpper .box-4{
+    width: 70px;
+    height: 150px;
+    background-color: crimson;
+    overflow-x: scroll;
+    display: inline-block;
+}
