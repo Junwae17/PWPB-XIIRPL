@@ -8,13 +8,16 @@ body{
     background-color: rgb(218, 0, 218);
 }
 
+/* background utama */
 .warpper .box-1{
     background-color: rgb(94, 0, 148);
     width: 100%;
     height: 50%;
     margin-top: -30px;
+    border-bottom: 8px solid rgb(66, 0, 66);
 }
 
+/* foto */
 .warpper .box-2 .img{
     background-color: white;
     width: 200px;
@@ -26,6 +29,7 @@ body{
     display: inline-block;
 }
 
+/* Box Profil */
 .warpper .box-2{
     width: 500px;
     height: 250px;
@@ -38,6 +42,7 @@ body{
     border-left: 8px solid rgb(46, 0, 46);
 }
 
+/* Text Profil */
 .warpper .text{
     width: 250px;
     height: 270px;
@@ -45,20 +50,33 @@ body{
     margin-top: -250px;
 }
 
+/* Nama */
 .warpper .text h3{
     color: rgb(100, 0, 100);
     font-size: x-large;
 }
+
+/* Jarak Text Profil */
 .warpper .text h4{
+    margin-top: 5px;
     color: rgb(51, 0, 51);
     font-size: small;
 }
 
+/* Text Biodata */
 .warpper .text h5{
     color: rgb(51, 0, 51);
-    font-size: medium;
+    font-size: large;
 }
 
+/* Text Jurusan */
+.warpper .text h6{
+    color: rgb(51, 0, 51);
+    font-size: small;
+    font-style: italic;
+}
+
+/* Garis Perbatas */
 .warpper .text h2{
     background-color: purple;
     margin-left: -30px;
@@ -67,12 +85,14 @@ body{
     height: 2px;
 }
 
+/* Text EDUCATION */
 .warpper .text2 h1{
 text-align: center;
 color: rgb(51, 0, 51);
 margin-bottom: 30px;
 }
 
+/* Box Education */
 .warpper .box-3{
     width: 850px;
     height: 250px;
@@ -85,6 +105,7 @@ margin-bottom: 30px;
     border-left: 8px solid rgb(46, 0, 46);
 }
 
+/* Text isi Education */
 .warpper .text3{
     color: rgb(100, 0, 100);;
     width: 500px;
@@ -94,6 +115,17 @@ margin-bottom: 30px;
     text-align: left;  
     font-size: small;  
 }
+
+.warpper .text3{
+    color: rgb(100, 0, 100);;
+    width: 500px;
+    height: 270px;
+    margin: 8px 540px;
+    margin-top: -255px;
+    text-align: left;  
+    font-size: small;  
+}
+
 .warpper .text3 h3{
     color: rgb(51, 0, 51);
     margin-left: -225px;
@@ -107,4 +139,114 @@ margin-bottom: 30px;
     margin-right: 20px;
     margin-top: 5px;
     height: 2px;
+}
+
+.warpper .box-4{
+    width:8px;
+    height: 550px;
+    background-color: rgb(255, 185, 255);
+    margin: 40px auto;
+    text-align: center;         
+    border-top: 2px solid purple;
+    border-right: 2px solid rgb(90, 0, 90);
+    border-bottom: 2px solid rgb(66, 0, 66);
+    border-left: 2px solid rgb(46, 0, 46);
+}
+
+.warpper .box-5{
+    width: 450px;
+    height: 200px;
+    background-color: rgb(255, 185, 255);
+    margin: -593px auto;
+    margin-left: 185px;
+    text-align: center;
+    border-top: 8px solid purple;
+    border-right: 8px solid rgb(90, 0, 90);
+    border-bottom: 8px solid rgb(66, 0, 66);
+    border-left: 8px solid rgb(46, 0, 46);
+}
+
+.warpper .box-6{
+    width: 450px;
+    height: 200px;
+    background-color: rgb(255, 185, 255);
+    margin: 450px auto;
+    margin-right: 185px;
+    text-align: center;
+    border-top: 8px solid purple;
+    border-right: 8px solid rgb(90, 0, 90);
+    border-bottom: 8px solid rgb(66, 0, 66);
+    border-left: 8px solid rgb(46, 0, 46);
+}
+.warpper .box-7{
+    width: 450px;
+    height: 200px;
+    background-color: rgb(255, 185, 255);
+    margin: -500px auto;
+    margin-left: 185px;
+    text-align: center;
+    border-top: 8px solid purple;
+    border-right: 8px solid rgb(90, 0, 90);
+    border-bottom: 8px solid rgb(66, 0, 66);
+    border-left: 8px solid rgb(46, 0, 46);
+}
+.warpper .box-8{
+    width: 450px;
+    height: 200px;
+    background-color: rgb(255, 185, 255);
+    margin: 360px auto;
+    margin-right: 185px;
+    text-align: center;
+    border-top: 8px solid purple;
+    border-right: 8px solid rgb(90, 0, 90);
+    border-bottom: 8px solid rgb(66, 0, 66);
+    border-left: 8px solid rgb(46, 0, 46);
+}
+
+.warpper .circle{
+    width:8px;
+    height: 8px;
+    background-color: rgb(19, 0, 19);
+    margin: -850px auto;
+    text-align: center;
+    border-top: 2px solid purple;
+    border-right: 2px solid rgb(90, 0, 90);
+    border-bottom: 2px solid rgb(66, 0, 66);
+    border-left: 2px solid rgb(46, 0, 46);
+}
+
+.warpper .circle-2{
+    width:8px;
+    height: 8px;
+    background-color: rgb(19, 0, 19);
+    margin: 910px auto;
+    text-align: center;
+    border-top: 2px solid purple;
+    border-right: 2px solid rgb(90, 0, 90);
+    border-bottom: 2px solid rgb(66, 0, 66);
+    border-left: 2px solid rgb(46, 0, 46);
+}
+
+.warpper .circle-3{
+    width:8px;
+    height: 8px;
+    background-color: rgb(19, 0, 19);
+    margin: -755px auto;
+    text-align: center;
+    border-top: 2px solid purple;
+    border-right: 2px solid rgb(90, 0, 90);
+    border-bottom: 2px solid rgb(66, 0, 66);
+    border-left: 2px solid rgb(46, 0, 46);
+}
+
+.warpper .circle-4{
+    width:8px;
+    height: 8px;
+    background-color: rgb(19, 0, 19);
+    margin: 820px auto;
+    text-align: center;
+    border-top: 2px solid purple;
+    border-right: 2px solid rgb(90, 0, 90);
+    border-bottom: 2px solid rgb(66, 0, 66);
+    border-left: 2px solid rgb(46, 0, 46);
 }
